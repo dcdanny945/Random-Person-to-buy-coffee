@@ -1,0 +1,10 @@
+let names = ["Danny","Steph","Steven","Grogu"];
+function coffeeBuyer(names){
+  let numberOfPeople = names.length;
+  let randomOfPosition = Math.floor(Math.random()*names.length);
+  let buyerName = names[randomOfPosition];
+  return buyerName + " is going to pay for the coffees!"
+}
+
+console.log(coffeeBuyer(names));
+
